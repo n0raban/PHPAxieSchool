@@ -37,11 +37,11 @@ abstract class AxieSchoolReport extends AxieSchool
 	protected object $template;
 	protected array $all_scholars_last_data;
 
-    public function __construct()
-    {
-        $this->set_vars();
-        $this->build_report();
-    }
+    	public function __construct()
+    	{
+       		$this->set_vars();
+        	$this->build_report();
+    	}
 
 	/**
 	* init template class and file
