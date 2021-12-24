@@ -32,16 +32,17 @@ You can define different currencies for the manager and for each of the scholars
 
 ## Installation
 
-- edit config.php
-- send the file to your server
-- make sure /data/ is recursively writable 
-- (optionnal) put .htaccess and .htpasswd
-- set a cron to run at 0:00 UTC precisely every day (you can use this https://console.cron-job.org/)
+- Edit config.php
+- Send the file to your server
+- Make sure /data/ is recursively writable 
+- (optionnal) Put .htaccess and .htpasswd
+- Set a cron to run at 0:00 UTC precisely every day (you can use this https://console.cron-job.org/)
 
 
 ## Give a try
 
-run index.php from the browser, this will fetch the latest data on prices and scholars
+Run index.php from the browser, this will fetch the latest data on prices and scholars (at first time start)
+It will show the HTML manager report
 
 > Note: First day will not show the SLP !!! (it needs 2 days to be calculated)
 
