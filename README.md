@@ -75,4 +75,5 @@ Also thanks to https://github.com/leemunroe/responsive-html-email-template
 
 Feel free to drop an email for any question
 
-If you use this free program a donation is greatly appreciated, thanks
+If you use this free program a donation is greatly appreciated, even a few SLP would mean the world to me, thanks !
+
