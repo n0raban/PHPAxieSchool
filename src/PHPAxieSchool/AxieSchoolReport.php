@@ -239,6 +239,8 @@ class AxieSchoolReportToManager extends AxieSchoolReport
 			'CURRENCY'  => $this->default_currency,
 			'SLP_PRICE' => AxieSchoolUtilities::get_slp_price($this->default_currency),
 			'FOOTER_TXT' => 'If you use this script, please consider making a donation<br/>ronin:066149e4e914e33b76d612c93eae03df6d9db91a<br/>Even a few SLP would mean the world to me! Thanks!',
+			// 'FOOTER_TXT' => '',
+
 		));
 	}
 
