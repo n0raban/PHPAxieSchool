@@ -27,7 +27,7 @@ You can define different currencies for the manager and for each of the scholars
 
 ### _Scholar report example_
 
-![Capture du 2021-04-01 13-12-10](https://user-images.githubusercontent.com/test.png)
+![Scholar report](https://user-images.githubusercontent.com/96583462/147362739-53fcd082-3751-43a7-af52-8783a90a051d.png)
 
 
 ## Installation
