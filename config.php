@@ -2,8 +2,10 @@
 /***********************************************
 ** SCHOLARS INFO
 ***********************************************/
-define('SCHOLARS', array(
-
+define('SCHOLARS', 
+       array(
+	       
+	///// SCHOLAR 1   
 	// ronin address ( replace ronin: by 0x)
 	"0xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" => array(
 		"name" => "[Sc1] Scholar 1", // internal name
@@ -14,7 +16,8 @@ define('SCHOLARS', array(
 			"currency" => "php", // scholar's prefered currency
 		),
 	),
-
+	       
+	///// SCHOLAR 2  
 	"0xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" => array(
 		"name" => "[Sc2] Scholar 2",
 		"share" => 50,
@@ -25,7 +28,8 @@ define('SCHOLARS', array(
 			"currency" => "php",
 		),
 	),
-
+	       
+	///// SCHOLAR 3 
 	"0xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" => array(
 		"name" => "[Sc3] Scholar 3",
 		"share" => 50,
@@ -37,12 +41,14 @@ define('SCHOLARS', array(
 		),
 	),
 
+	///// SCHOLAR 4 
 	"0xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" => array(
 		"name" => "[Sc4] Scholar 4",
 		"share" => 50,
 		"reporting" => false, // example for no indiviual report for this scholar
 	),
-
+	       
+	///// Add as many scholar you want ...
 ));
 
 /***********************************************
