@@ -37,7 +37,7 @@ You can define different currencies for the manager and for each of the scholars
 - Send the files and folders to your server
 - Make sure /data/ and /logs/ are recursively writable by the script
 - (optionnal) Put .htaccess and .htpasswd
-- Set a cron to run at 0:00 UTC precisely every day (you could use https://console.cron-job.org/)
+- Set a cron to run at 0:00 UTC precisely every day (you could use https://cron-job.org/en/)
 
 ## Give a try
 
