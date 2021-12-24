@@ -48,7 +48,7 @@ run index.php from the browser, this will fetch the latest data on prices and sc
 
 ## Is it safe to use ?
 
-So yes, it is safe. According to Axie Terms Of Use at time of writing (https://axieinfinity.com/terms/), article 2.5 :
+Yes, it is safe. According to Axie Terms Of Use at time of writing (https://axieinfinity.com/terms/), article 2.5 :
 
 ```sh
 (5) you will not access the Site, the App and the Smart Contracts through automated and non-human means, whether through a bot, script or otherwise. Except as expressly mentioned herein;
