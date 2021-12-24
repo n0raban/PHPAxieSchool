@@ -406,7 +406,6 @@ class AxieSchoolFetchDataPrices extends AxieSchoolFetchData
 	public function __construct()
 	{
 		$this->set_currencies();
-	//	$this->set_expected_key();
 		$this->set_query_url();
 	}
 
