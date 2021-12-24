@@ -15,7 +15,8 @@ Each report contain :
 - SLP for today before/after the share
 - In-game SLP before/after the share
 - Expected for 30 days SLP before/after the share
-- The SLP price 
+- The SLP current price (versus currency)
+- More to come ...
 
 You can define different currencies for the manager and for each of the scholars. (usd, php ...)
 
