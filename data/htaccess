@@ -1,0 +1,4 @@
+# AuthUserFile /path/to/.htpasswd
+# AuthType Basic
+# AuthName "restricted"
+# Require valid-user
