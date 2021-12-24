@@ -41,7 +41,7 @@ You can define different currencies for the manager and for each of the scholars
 
 ## Give a try
 
-Run index.php from the browser, this will fetch the latest data on prices and scholars (at first time start)
+Run index.php from the browser, this will fetch the latest data on prices and scholars (at first time run only)
 It will show the HTML manager report
 
 > Note: First day will not show the SLP !!! (it needs 2 days to be calculated)
