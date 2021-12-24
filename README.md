@@ -9,8 +9,8 @@ PHPAxieSchool is a php script that help managers and scholars in their Axie Infi
 At the end of each day, the script gather data on Axie and Coingecko API servers, then build and send an email report to the manager and his scholars.
 Each report contain :
 
-- the MMR 
-- the SLP earned for the day (the SLP amount should be right even if a claimed occurred)
+- The MMR 
+- The SLP earned for the day (the SLP amount should be right even if a claimed occurred)
 - Average SLP and MMR
 - SLP for today before/after the share
 - In-game SLP before/after the share
@@ -34,7 +34,7 @@ You can define different currencies for the manager and for each of the scholars
 
 - Edit config.php
 - Send the file to your server
-- Make sure /data/ is recursively writable 
+- Make sure /data/ and /logs/ are recursively writable
 - (optionnal) Put .htaccess and .htpasswd
 - Set a cron to run at 0:00 UTC precisely every day (you can use this https://console.cron-job.org/)
 
@@ -46,10 +46,11 @@ It will show the HTML manager report
 
 > Note: First day will not show the SLP !!! (it needs 2 days to be calculated)
 
+Check the logs floder
 
 ## Is it safe to use ?
 
-Yes, it is safe. According to Axie Terms Of Use at time of writing (https://axieinfinity.com/terms/), article 2.5 :
+Yes, it is safe. According to Axie Terms Of Use (at time of writing) (https://axieinfinity.com/terms/), article 2.5 :
 
 ```sh
 (5) you will not access the Site, the App and the Smart Contracts through automated and non-human means, whether through a bot, script or otherwise. Except as expressly mentioned herein;
