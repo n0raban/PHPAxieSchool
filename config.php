@@ -123,8 +123,10 @@ define('SMTP_PORT', 465); // default gmail conf
 ***********************************************/
 /// as the script might be called by the server cron we need to precise the relative paths
 define('PATH', __DIR__);
-define('DATA_DIR', __DIR__ . '/data/');
-define('DATA_LOG', __DIR__ . '/logs/');
+// make sure the script has creating/deleting files permissions on this folder
+define('DATA_DIR', __DIR__ . '/data/'); 
+// make sure the script has creating/deleting files permissions on this folder
+define('DATA_LOG', __DIR__ . '/logs/'); 
 
 
 
