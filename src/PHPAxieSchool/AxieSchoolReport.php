@@ -220,10 +220,10 @@ class AxieSchoolReportToManager extends AxieSchoolReport
 	/**
 	* set vars
 	*/
-    protected function set_vars() :void
-    {
-    	$this->all_scholars_last_data = AxieSchoolDb::fetchAllScholarsLastData();
-    }
+   	 protected function set_vars() :void
+    	{
+    		$this->all_scholars_last_data = AxieSchoolDb::fetchAllScholarsLastData();
+    	}
 
 	/**
 	* parse manager only texts in report
@@ -364,23 +364,23 @@ class AxieSchoolReportToScholar extends AxieSchoolReport
 	/**
 	* set vars
 	*/
-    protected function set_vars() :void
-    {
-    	$this->all_scholars_last_data = AxieSchoolDb::fetchAllScholarsLastData();
-    	$this->scholar_last_data = AxieSchoolDb::fetchOneScholarLastData($this->scholar_ronin);
+    	protected function set_vars() :void
+    	{
+    		$this->all_scholars_last_data = AxieSchoolDb::fetchAllScholarsLastData();
+    		$this->scholar_last_data = AxieSchoolDb::fetchOneScholarLastData($this->scholar_ronin);
 
-    	// if report is not set to false for this scholar
-    	if($this->scholars[$this->scholar_ronin]['reporting'])
-    	{
-    		$this->currency = $this->scholars[$this->scholar_ronin]['reporting']['currency'];
-    		$this->name = $this->scholars[$this->scholar_ronin]['reporting']['contact_name'];
+    		// if report is not set to false for this scholar
+    		if($this->scholars[$this->scholar_ronin]['reporting'])
+    		{
+    			$this->currency = $this->scholars[$this->scholar_ronin]['reporting']['currency'];
+    			$this->name = $this->scholars[$this->scholar_ronin]['reporting']['contact_name'];
+    		}
+    		else
+    		{
+    			$this->currency = $this->default_currency;
+    			$this->name = $this->scholar_last_data['name'];
+    		}
     	}
-    	else
-    	{
-    		$this->currency = $this->default_currency;
-    		$this->name = $this->scholar_last_data['name'];
-    	}
-    }
 
 	/**
 	* parse scholars only texts in report
