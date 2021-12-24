@@ -38,7 +38,6 @@ You can define different currencies for the manager and for each of the scholars
 - (optionnal) Put .htaccess and .htpasswd
 - Set a cron to run at 0:00 UTC precisely every day (you can use this https://console.cron-job.org/)
 
-
 ## Give a try
 
 Run index.php from the browser, this will fetch the latest data on prices and scholars (at first time run only)
@@ -46,7 +45,7 @@ It will show the HTML manager report
 
 > Note: First day will not show the SLP !!! (it needs 2 days to be calculated)
 
-Check the logs floder
+Also check the logs folder
 
 ## Is it safe to use ?
 
