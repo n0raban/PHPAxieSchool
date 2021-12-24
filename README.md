@@ -33,7 +33,7 @@ You can define different currencies for the manager and for each of the scholars
 ## Installation
 
 - Edit config.php
-- Send the file to your server
+- Send the files and folders to your server
 - Make sure /data/ and /logs/ are recursively writable
 - (optionnal) Put .htaccess and .htpasswd
 - Set a cron to run at 0:00 UTC precisely every day (you can use this https://console.cron-job.org/)
