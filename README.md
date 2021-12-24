@@ -45,7 +45,7 @@ It will show the HTML manager report
 
 > Note: First day will not show the SLP !!! (it needs 2 days to be calculated)
 
-Also feel free to check inside the logs folder from time to time, everything is logged.
+Also feel free to check inside the logs folder, everything is logged.
 
 ## Is it safe to use ?
 
