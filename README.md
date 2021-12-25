@@ -2,7 +2,7 @@
 
 PHPAxieSchool is a PHP script that aims to help managers and scholars in their Axie Infinity journey
 
-*The script and its developer are NOT affiliated with Axie Infinity*
+*The script developer is NOT affiliated with Axie Infinity*
 
 ## Features
 
