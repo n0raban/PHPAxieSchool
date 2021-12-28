@@ -4,6 +4,8 @@ PHPAxieSchool is a PHP script that aims to help managers and scholars in their A
 
 *The script/developer are NOT affiliated with Axie Infinity*
 
+> This script use public data, no private key needed !
+
 ## Features
 
 At the end of each day, the script gather data on Axie and Coingecko API servers, then build and send an email report to the manager and his scholars.
