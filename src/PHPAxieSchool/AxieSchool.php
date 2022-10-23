@@ -50,9 +50,9 @@ class AxieSchool
 	*/ 
 	public function first_time_run() :void
 	{
-		// if there is no data scholars storage yet, update
+		// if there is no data in scholars storage yet, update
 		if(!AxieSchoolDb::last_id($this->scholars_store_name)) $this->update_scholars();
-		// if there is no data scholars storage yet, update
+		// if there is no data in prices storage yet, update
 		if(!AxieSchoolDb::last_id($this->prices_store_name)) $this->update_prices();
 	}
 
